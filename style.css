@@ -95,6 +95,11 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
+#course-content span {
+  color: #33a8db;
+  margin-right: 5px;
+}
+
 #course-content p {
   margin: 20px 0;
 }
@@ -119,5 +124,20 @@ main {
   background-attachment: fixed;
   border-top: 1px solid #33A8DB80;
   border-bottom: 1px solid #33A8DB80;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   padding: 200px;
 }
+
+#transform-world p{
+  width: 350px;
+  height: 100%;
+  font-size: 60px;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 2px #33A8DB;
+}
+
